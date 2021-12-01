@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    outline: none !important;
+    text-decoration: none !important;
+
+}
+
+.login-form{
+    height: 100vh;
+    background-image: linear-gradient(135deg, #eec0c6 0%, #7ee8fa 74%);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.login-form .box{
+    min-width: 400px;
+    min-height: 450px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px  #cccccc;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .box .img img{
+    width: 60px;
+    display: block;
+    margin: auto;
+
+}
+
+.login-form .box .heading h4{
+    color: #0089fe;
+    font-size: 22px;
+    text-align: left;
+    margin: 15px 0px 10px;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    display: inline-block;  
+
+}
+
+.login-form .box .form-fields{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+.login-form .box .form-fields .input-box{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%
+
+}
+
+.login-form .box .form-fields .input-box .form-control{
+    height: 40px;
+    width: 100%;
+    padding: 0px 0px 0px 45px;
+    color: #444444;
+    border: 1px solid #cccccc
+}
+.login-form .box .form-fields .input-box .form-control::placeholder{
+    color:#cccccc;
+}
+
+.login-form .box .form-fields .input-box  span{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+.login-form .box .form-fields .input-box  span img{
+    width:22px;
+}
+
+.login-form .box .form-fields .button-box{
+    width: 100%;
+    display: flex;
+    align-items:center
+}
+
+.login-form .box .form-fields .button-box button{
+    color: #ffffff;
+    font-size:16px;
+    padding: 8px 35px;
+    background-color: #0089fe;
+    transition: box-shadow .5s ease;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.login-form .box .form-fields .button-box button:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+
+.login-form .box .form-fields .button-box a{
+  font-size: 16px;
+  color: #0089fe;
+}
+
+.login-form .box .social-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-form .box .social-links p{
+    text-align: center;
+    color: #cccccc;
+    font-size: 14px;
+    margin: 25px 0px 20px;
+}
+
+.login-form .box .social-links .link-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.login-form .box .social-links .link-box a{
+    color: #ffffff;
+    padding: 8px;
+    width: calc(33.33% 15px);
+    transition: box-shadow .5s ease;
+
+}
+
+.login-form .box .social-links .link-box a:hover{
+    box-shadow: 0px 0px 10px gray
+}
+.login-form .box .social-links .link-box a.Facebook{
+    background-color: #4567ab;
+
+}
+.login-form .box .social-links .link-box a.Google{
+    background-color: #dd4234;
+
+}
+.login-form .box .social-links .link-box a.Twitter{
+    background-color: #2fcdfe;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------*/
+@media (max-width: 500px){
+    .login-form .box{
+        min-width: 100px;
+        padding: 30px
+
+    }
+    .login-form form{
+        min-width: 100px;
+
+    }
+}
+
+
+
+
+
